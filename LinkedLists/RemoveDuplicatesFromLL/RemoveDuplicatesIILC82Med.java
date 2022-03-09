@@ -33,7 +33,7 @@ class Solution
             
             if(prev.next == curr)
             {
-                prev = prev.next;
+                prev = curr;
             }
             else
             {
